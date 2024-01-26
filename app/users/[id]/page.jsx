@@ -7,6 +7,9 @@ export default function userDetail(props) {
         <button>Back</button>
       </Link>
       <h1>User Detail - {props.params.id}</h1>
+      <span>{props.searchParams.age}</span>
+      <span>-</span>
+      <span>{props.searchParams.yearOfBirth}</span>
     </div>
   );
 }
