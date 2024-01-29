@@ -5,7 +5,7 @@ export async function GET(req, {params}) {
   return NextResponse.json({
     id,
     enunciado: 'Qual é a sua cor preferida?',
-    repostas: [
+    respostas: [
       'Branca', 'Vermelha', 'Amarela', 'Verde'
     ]
   });
